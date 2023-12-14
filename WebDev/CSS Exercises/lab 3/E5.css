@@ -1,0 +1,50 @@
+.Box
+{
+    position: relative;
+    justify-content: center;
+    background: rgb(0, 238, 255);
+    width: 100%;
+    height: 500px;
+    left: 0;
+    border: 5px solid blue;
+}
+
+.topright
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: red;
+}
+
+.topleft
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: red;
+}
+
+.bottomright
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: red;
+}
+
+.bottomleft
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: red;
+}
+
+.middle
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: red;
+}

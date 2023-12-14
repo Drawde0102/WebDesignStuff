@@ -1,0 +1,24 @@
+.basic {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}

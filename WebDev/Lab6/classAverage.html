@@ -1,0 +1,56 @@
+<!--
+    Student Name : Edward Zheng
+    Student Id Number : C00282942
+    Date : 17/11/2023
+    Purpose : lab sheet work
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab6 - Task4</title>
+        <meta charset="utf-8">
+
+        <script>
+            function classAverage()
+            {
+                var total  = 0;
+                var count = 0;
+                var average = 0;
+
+                while(true)
+                {
+                    var input = prompt("Enter the results(enter -1 to run)");
+                    input = parseFloat(input);
+
+                    if(input === -1)//if the input is -1 break the loop
+                    {
+                        break;
+                    }
+
+                    if(!isNaN(input))//if input is a valid number add it into the total
+                    {
+                        total = total + input;
+                        count ++;
+                    }
+                    else
+                    {
+                        alert("Invalid Input")
+                    }
+                }
+
+                if(count > 0)//calculate and out put the average
+                {
+                    average = total/count;
+                    document.write("<p>Class Average: " + average.toFixed(2) + "</p>")
+                }
+
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1>Average</h1>
+        <button onclick="classAverage()">Start</button>
+
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!--
+    Student Name : Edward Zheng
+    Student Id Number : C00282942
+    Date : 26/10/2023
+    Purpose : lab sheet work
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Demo - Task4</title>
+        <link rel="stylesheet" href="task4.css">
+    </head>
+
+    <body>
+        <form class="formbox">
+        <h2>Customer Form</h2>
+        <div>
+        <fieldset>
+            
+            <legend>Personal Details</legend>
+            <div class="inputbox">
+                <label for="Firstname">First Name:</label>
+                <input type="text" name="firstname" id="Firstname" />
+            </div><br>
+            <div class="inputbox">
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" id="surname" />
+            </div><br>
+            <div class="inputbox">
+                <label for="Address">Address:</label>
+                <input type="text" name="Address" id="Address" />
+            </div><br>
+            <div class="inputbox">
+                <label for="Number">Phone Number:</label>
+                <input type="text" name="Number" id="Number" placeholder="0123456789"/>
+            </div><br>
+            <div class="inputbox">
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="Email" placeholder="c00123456@setu.ie"/>
+            </div><br>
+            <div class="inputbox">
+                <label for="web">Personal Website:</label>
+                <input type="url" name="web" id="web" placeholder="https://example.com"/>
+            </div><br>
+            <div class="inputbox">
+                <label for="Date of Birth" title="your date of birth">Date of Birth:</label>
+                <input type="date" name="DOB" id="DOB"/>
+            </div><br>
+            <div class="radiobox">
+                <label title="if you are a current customer">Current Customer</label><br/>
+                <input type="radio" name="Current" id="Yes" value="y" />
+                <label for="Yes">Yes</label><br/>
+                <input type="radio" name="Current" id="No" value="n" />
+                <label for="No">No</label><br/>
+            </div>
+        </fieldset>
+        
+        <br>
+
+        <fieldset>
+            <legend>Other Details</legend>
+            <div class="inputbox">
+                <label for="Number of Children">Number of Children:</label>
+                <input type="text" name="noc" id="noc" pattern="[0-10]"/>
+            </div><br>
+            
+            <div>
+                <label for="Satisfaction rating with company ">Satisfaction rating with company :</label>
+                <span>bad</span>
+                <input type="range" name="Satisfaction" id="Satisfaction" min="0" max="10"/>
+                <span>good</span>
+            </div><br>
+
+            <div class="checkbox1">
+                Have you got the following?
+                <div class="furniture">
+                    <input type="checkbox" name="furniture" id="f1">
+                    <label for="f1">Electric Cooker</label>
+                </div>
+                <div class="furniture">
+                    <input type="checkbox" name="furniture" id="f2">
+                    <label for="f2">Electric Washing Machine</label>
+                </div>
+                <div class="furniture">
+                    <input type="checkbox" name="furniture" id="f3">
+                    <label for="f3">Tumble Dryer</label>
+                </div>
+                <div class="furniture">
+                    <input type="checkbox" name="furniture" id="f4">
+                    <label for="f4">Steam Iron</label>
+                </div>
+            </div>
+
+        </fieldset>
+        </div>
+
+        <br>
+
+        <div class="myButton">
+            <input class="botton" type="submit" value="Send Form" name="submit"/><br><br>
+            <input class="botton" type="reset" value="Clear Form" name="reset"/>
+        </div>
+        </form>
+    </body>
+</html>

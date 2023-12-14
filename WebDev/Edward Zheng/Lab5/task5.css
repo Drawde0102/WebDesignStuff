@@ -1,0 +1,42 @@
+.formbox
+{
+    background: rgb(240, 246, 248);
+    margin: 10;
+    position: relative;
+    width: 600px;
+    padding: 10px;
+    left: 50%;
+    margin-left: -300px;
+    border: solid #04b49d 1px;
+}
+
+h2
+{
+    padding: 3px;
+    color: white;
+    background-color: #04b49d;
+}
+
+.rowbox
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputbox1
+{
+    width: 100%;
+}
+
+span
+{
+    color: #04b49d;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.botton
+{
+    color: white;
+    background: #04b49d;
+}

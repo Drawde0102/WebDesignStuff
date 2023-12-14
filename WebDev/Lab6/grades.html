@@ -1,0 +1,51 @@
+<!--
+    Student Name : Edward Zheng
+    Student Id Number : C00282942
+    Date : 17/11/2023
+    Purpose : lab sheet work
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab6 - Task3</title>
+        <meta charset="utf-8">
+        <script>
+            function grade()
+            {
+                var grade = prompt("Enter the grade(A,B,C,D or E)");
+
+                switch(grade)
+                {
+                    case "A" :
+                    alert("Good Job");
+                    break
+
+                    case "B" :
+                    alert("Pretty Good");
+                    break
+
+                    case "C" :
+                    alert("Passed");
+                    break
+
+                    case "D" :
+                    alert("Not so Good");
+                    break
+
+                    case "E" :
+                    alert("Failed");
+                    break
+
+                    default :
+                    alert("Invalid input")
+                    break
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Grades</h1>
+        <button onclick="grade()">Start</button>
+
+    </body>
+</html>

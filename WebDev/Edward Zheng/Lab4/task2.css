@@ -1,0 +1,23 @@
+.formbox
+{
+    background: rgb(235, 236, 236);
+    margin: 10;
+    position: relative;
+    width: 500px;
+    padding: 10px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+h2
+{
+    padding: 3px;
+    color: white;
+    background-color: #0ca8bd;
+}
+
+.botton
+{
+    color: white;
+    background: #0ca8bd;
+}

@@ -1,0 +1,68 @@
+<!--
+    Student Name : Edward Zheng
+    Student Id Number : C00282942
+    Date : 30/11/2023
+    Purpose : lab sheet work
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab8</title>
+        <link rel="stylesheet" href="Lab8.css">
+    </head>
+
+    <body>
+        <script src="Lab8.js"></script>
+        <form>
+        <h2>Student Form</h2>
+        
+        <div>
+        <fieldset>
+            <div class="inputbox">
+                <label for="Name">Name:</label>
+                <input class="inputbox1" type="text" name="Name" id="Name" placeholder="First and Last name" pattern="[A-Za-z.\s]+" title="Your name here" required/>
+            </div><br>
+
+            <div class="inputbox">
+                <label for="Address">Address:</label>
+                <input class="inputbox1" type="text" name="Address" id="Address" placeholder="Example, High Street, Carlow " pattern="[A-Za-z0-9,.\s]+" title="insert your Address" required/>
+            </div><br>
+
+            <div class="inputbox">
+                <label for="Phone number">Phone number:</label>
+                <input class="inputbox1" type="tel" name="Phone number" id="Phone number" placeholder="(087) 123 or 087- 123" pattern="[0-9\(\)\s\-]+" title="your phone number"/>
+            </div><br>
+            
+            <div class="inputbox">
+                <label for="Email address">Email address:</label>
+                <input class="inputbox1" type="email" name="Email address" id="Email address" placeholder="abc012@mail.example" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,}" title="your email" required/>
+            </div><br>
+        
+            <div class="inputbox">
+                <label for="Confirm Email address">Confirm Email address:</label>
+                <input class="inputbox1" type="email" name="Confirm Email address" id="Confirm Email address" placeholder="abc012@mail.example" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,}" title="enter the email again" required/>
+            </div><br>
+
+            <div class="inputbox">
+                <label for="Date of birth">Date of birth:</label>
+                <input class="inputbox1" type="date" name="Date of birth" id="Date of birth" title="your date of birth" required/>
+            </div><br>
+
+            <div class="inputbox">
+                <label for="Starting Date">Starting Date:</label>
+                <input class="inputbox1" type="date" name="Starting Date" id="Starting Date" title="starting date of being a student" required/>
+            </div><br>
+        </fieldset>
+
+        </div>
+
+        <br>
+
+        <div class="myButton">
+            <input class="botton" type="submit" value="Send Form" name="submit" onclick="checkValidate()"/><br><br>
+            <input class="botton" type="clear" value="Clear Form" name="clear"/>
+        </div>
+
+        </form>
+    </body>
+</html>

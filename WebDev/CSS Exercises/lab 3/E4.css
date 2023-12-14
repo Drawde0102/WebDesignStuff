@@ -1,0 +1,32 @@
+.box
+{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 20PX;
+}
+
+.one
+{
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    background: red;
+    border: 5px solid yellow;
+}
+.two
+{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    background: blue;
+    border: 15px solid paleturquoise;
+}
+.three
+{
+    position: absolute;
+    top: -25px;
+    right: 30px;
+    background: yellow;
+    border: 25px solid orange;
+}

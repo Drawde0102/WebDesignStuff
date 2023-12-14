@@ -1,0 +1,56 @@
+.border
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(255, 0, 0);
+    margin: auto;
+}
+
+h2
+{
+    text-align: center;
+    background: turquoise;
+    font-size: 70px;
+}
+
+.A
+{
+    z-index: 5;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+}
+
+.K
+{
+    z-index: 4;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+.Q
+{
+    z-index: 3;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    
+}
+
+.J
+{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.Ten
+{
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}

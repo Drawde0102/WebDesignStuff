@@ -1,0 +1,46 @@
+/* 
+Student Name 	    : Edward Zheng
+Student Id Number   : C00282942
+Date 			    : 05/10/2023
+Purpose 			: lab03
+*/
+.navbar
+{
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+
+img
+{
+    max-height:120px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgb(41, 102, 131);
+    width:fit-content;
+}
+
+.nav-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+.nav-list a
+{
+    color: rgb(41, 102, 131);
+    text-decoration: none;
+
+}

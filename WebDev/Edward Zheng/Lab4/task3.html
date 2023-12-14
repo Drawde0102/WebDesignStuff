@@ -1,0 +1,85 @@
+<!--
+    Student Name : Edward Zheng
+    Student Id Number : C00282942
+    Date : 25/10/2023
+    Purpose : lab sheet work
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Demo - Task3</title>
+        <link rel="stylesheet" href="task2.css">
+    </head>
+
+    <body>
+        <form class="formbox">
+            <h2>Student Form</h2>
+            <div class="inputbox">
+                <label for="Firstname">First Name:</label>
+                <input type="text" name="firstname" id="Firstname" />
+            </div>
+            <div class="inputbox">
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" id="surname" />
+            </div>
+            <br>
+            <div class="inputbox">
+                <label for="e-mail">Email:</label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="c00123456@setu.ie"/>
+            </div>
+            <div class="inputbox">
+                <label for="web">Personal Web Address:</label>
+                <input type="url" name="web" id="web" placeholder="https//:example.com"/>
+            </div>
+            <div class="inputbox">
+                <label for="birth">Date of birth:</label>
+                <input type="date" name="birth" id="birth"/>
+            </div>
+
+            <div class="radiobox">
+                <label title="if your are registered">Registered?</label><br/>
+                <input type="radio" name="registered" id="registered" value="Regy" />
+                <label for="registered">Registered</label><br/>
+                <input type="radio" name="registered" id="notregistered" value="Regn" />
+                <label for="notregistered">Not Registered</label><br/>
+            </div>
+
+            <div class="dropdown">
+                Select  Year:
+                <select name="schoolYear">
+                    <option value="firstYear">First Year</option>
+                    <option value="secondYear">Second Year</option>
+                    <option value="thirdYear">Third Year</option>
+                    <option value="fourthYear">Final Year</option>
+                </select>
+            </div>
+            
+            <div class="checkbox1">
+                Select the course(s) taken:
+                <div class="courses">
+                    <input type="checkbox" name="course" id="C1" value="Deg in Soft Eng">
+                    <label for="C1">Degree in Software Engineering</label>
+                </div>
+                <div class="courses">
+                    <input type="checkbox" name="course" id="C2" value="Deg in IT Mgt">
+                    <label for="C2">Degree in IT Management</label>
+                </div>
+                <div class="courses">
+                    <input type="checkbox" name="course" id="C3" value="Deg in Cyber">
+                    <label for="C3">Degree in Cyber Security</label>
+                </div>
+                <div class="courses">
+                    <input type="checkbox" name="course" id="C4" value="Deg in Comp Science">
+                    <label for="C4">Degree in Computer Science</label>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="myButton">
+                <input class="botton" type="submit" value="Send Form" name="submit"/><br><br>
+                <input class="botton" type="reset" value="Clear Form" name="reset"/>
+            </div>
+        </form>
+    </body>
+</html>
